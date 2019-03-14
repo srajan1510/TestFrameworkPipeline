@@ -20,6 +20,7 @@ public class testClass {
         String webPageTitle=eventFiringWebDriver.getTitle();
         Assert.assertEquals(webPageTitle.length()>0,true);
         System.out.println(webPageTitle);
+        Assert.assertEquals("Google",webPageTitle);
         //System.out.println(driver.manage().logs().get(LogType.PERFORMANCE).getAll().get(0));
 
     }
