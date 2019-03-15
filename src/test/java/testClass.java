@@ -21,7 +21,10 @@ public class testClass {
         Assert.assertEquals(webPageTitle.length()>0,true);
         System.out.println(webPageTitle);
         Assert.assertEquals("Google",webPageTitle);
-        System.out.println("DONE");
+        System.out.println("PASSED");
+        for (int i=webPageTitle.length()-1;i>=0;i--){
+            System.out.println(webPageTitle.charAt(i));
+        }
         //System.out.println(driver.manage().logs().get(LogType.PERFORMANCE).getAll().get(0));
 
     }
