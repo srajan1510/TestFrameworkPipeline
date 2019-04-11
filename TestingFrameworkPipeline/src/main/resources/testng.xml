@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<parameter name="sample" value="ANKITA SRAJAN WONDERLAND BENGULURU CHNENNAI Call ANKITA SRAJAN WONDERLAND BENGULURU CHNENNAI Taxi free Uber OLA Ride Pune FARE  ANKITA SRAJAN WONDERLAND BENGULURU CHNENNAI MADURAI VELLORE SATVIK NENSI MANSI Call Taxi free Uber OLA Ride Pune FARE CALL TAXI APPLE BOMBAY CALL TAXI APPLE BOMBAY Call Taxi free Uber OLA Ride Pune FARE CALL TAXI APPLE BOMBAY"/>
+<test name="Test">
+    <classes>
+        <class name="testClass"/>
+        <methods>
+            <exclude name="testName"/>
+            <exclude name="inputDataGoogleSearch"/>
+            <include name="removeDuplicateCharFromString"/>
+
+        </methods>
+    </classes>
+</test>
+</suite>
